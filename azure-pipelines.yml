@@ -6,11 +6,11 @@
 trigger:
 - master
 resources:
-repositories:
+ repositories:
   - repository: testRepo3      
     type: GitHub
-    connection: GitHub connection 1
-    source: shyama1208
+    endpoint: GitHub
+    name: GitHub connection 1
 
 pool:
   vmImage: 'Ubuntu-16.04'
