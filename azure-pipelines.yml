@@ -5,6 +5,12 @@
 
 trigger:
 - master
+resources:
+repositories:
+  - repository: testRepo3      
+    type: GitHub
+    connection: GitHub connection 1
+    source: shyama1208
 
 pool:
   vmImage: 'Ubuntu-16.04'
@@ -17,3 +23,4 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
+ 
