@@ -10,7 +10,7 @@ resources:
   - repository: testRepo3      
     type: GitHub
     endpoint: GitHub connection 1
-    name: testRepo3
+    name: shyama1208/testRepo3
 
 pool:
   vmImage: 'Ubuntu-16.04'
